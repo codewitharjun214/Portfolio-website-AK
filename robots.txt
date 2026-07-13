@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arjun-kadam-portfolio.com/sitemap.xml

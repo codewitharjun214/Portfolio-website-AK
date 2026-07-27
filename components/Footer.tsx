@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { SOCIAL_LINKS } from '../constants';
 import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
 
@@ -32,7 +33,7 @@ const Footer: React.FC = () => {
         Designed & Built by Arjun Kadam
       </p>
       <p className="font-mono text-xs text-gray-700 dark:text-slate mt-1">
-        © {new Date().getFullYear()}. All Rights Reserved. | <a href="/admin" className="hover:text-accent">Admin</a>
+        © {new Date().getFullYear()}. All Rights Reserved. | <Link to="/admin" className="hover:text-accent">Admin</Link>
       </p>
     </footer>
   );

@@ -19,11 +19,11 @@ const DASHBOARDS: ShowcaseItem[] = [
     kpis: ['Calculated Net Margins', '3-Month Dynamic Forecasting', 'Multi-Currency ETL Layer']
   },
   {
-    title: 'HR Performance & Diversity Matrix',
+    title: 'HR Analytics & Employee Attrition Dashboard',
     category: 'People Analytics',
-    description: 'An executive-level matrix designed to track employee retention probabilities, evaluate department-wise tenure correlations, and audit gender representation gaps.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
-    kpis: ['Attrition Hazard Modeling', 'Department Performance Scores', 'Tenure Distribution']
+    description: 'An executive Power BI dashboard analyzing 1,470+ workforce records, mapping attrition rates (16.12%), active employees (1,233), overtime impact, and department/role turnover patterns.',
+    image: '/src/assets/images/hr_analytics_dashboard_1785179582392.jpg',
+    kpis: ['Attrition Rate (16.12%)', '1.47K Employee Records', 'DAX & SQL Pipeline']
   },
   {
     title: 'Operational Supply Chain Optimization Tracker',

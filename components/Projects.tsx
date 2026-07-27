@@ -12,6 +12,22 @@ interface CaseStudyContent {
 }
 
 const CASE_STUDIES: Record<string, CaseStudyContent> = {
+  'End-to-End HR Analytics Project – Employee Attrition Dashboard': {
+    title: 'End-to-End HR Analytics Project – Employee Attrition Dashboard',
+    problem: 'High employee turnover creates significant financial loss and operational inefficiency. The enterprise required a unified HR analytics system to analyze employee attrition drivers across departments, job roles, age demographics, and overtime commitments.',
+    approach: [
+      'Executed Business Understanding and Data Processing on 1,470+ employee records using Python (Pandas) and SQL.',
+      'Conducted Exploratory Data Analysis (EDA) to evaluate correlations between turnover, compensation, and work-life balance factors.',
+      'Built custom DAX measures in Power BI for core workforce KPIs: Attrition Rate (16.12%), Active Workforce (1,233), Employees Left (237), and Avg Income ($6.50K).',
+      'Designed an executive dashboard featuring dynamic slicers by Department, Gender, and Education Field along with job-role and overtime attrition breakdown charts.'
+    ],
+    results: [
+      'Identified Research & Development (133 left) and Sales (92 left) as top attrition departments.',
+      'Isolated Sales Executives (57) and Laboratory Technicians (62) as high-risk job roles.',
+      'Discovered that employees working Overtime and those aged 25-35 experienced significantly higher turnover rates.'
+    ],
+    impact: 'Equips executive HR leaders with actionable data insights to launch targeted retention initiatives, improve overtime balancing, and cut costly employee replacement cycles.'
+  },
   'Loan Approval Prediction & Exploratory Data Analysis': {
     title: 'Loan Approval Prediction & Exploratory Data Analysis',
     problem: 'Financial institutions lose millions annually due to default loans, while manual vetting delays approval cycles. The goal was to build an automated, highly precise classification pipeline to predict loan defaults and evaluate customer creditworthiness.',

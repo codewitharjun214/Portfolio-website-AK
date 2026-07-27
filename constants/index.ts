@@ -93,6 +93,23 @@ export const EXPERIENCES: Experience[] = [
 export const PROJECTS: Project[] = [
   // Featured Data Analytics Projects
   {
+    title: 'End-to-End HR Analytics Project – Employee Attrition Dashboard',
+    description: 'Comprehensive workforce analytics solution analyzing employee attrition drivers across departments, job roles, age groups, and overtime. Built with Python, SQL, Power BI, DAX, and Exploratory Data Analysis (EDA).',
+    tech: ['Python', 'Pandas', 'SQL', 'Power BI', 'DAX', 'EDA', 'Business Intelligence'],
+    githubLink: 'https://github.com/codewitharjun214/HR-Analytics-End-to-End-Project',
+    liveLink: 'https://github.com/codewitharjun214/HR-Analytics-End-to-End-Project',
+    caseStudyLink: '#hr-analytics-case-study',
+    image: '/src/assets/images/hr_analytics_dashboard_1785179582392.jpg',
+    category: 'analytics',
+    highlights: [
+      'Cleaned, transformed, and queried 1,470+ workforce employee records using Python (Pandas) and SQL.',
+      'Calculated key HR metrics using DAX: Attrition Rate (16.12%), Active Employees (1,233), Left (237), Avg Age (36.92), and Avg Income ($6.50K).',
+      'Conducted Exploratory Data Analysis (EDA) uncovering key turnover drivers in R&D, Sales Executives, 25-35 age bracket, and Overtime staff.',
+      'Designed a high-fidelity Power BI dashboard featuring dynamic slicing by Department, Gender, and Education Field.',
+      'Formulated data-driven workforce retention strategies to mitigate costly organizational turnover.'
+    ]
+  },
+  {
     title: 'Loan Approval Prediction & Exploratory Data Analysis',
     description: 'Analyze loan applicant data using Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn. Includes data cleaning, EDA, feature engineering, visualization, and a machine learning model for loan approval prediction.',
     tech: ['Python', 'Pandas', 'NumPy', 'Scikit-Learn', 'Matplotlib', 'Seaborn', 'EDA', 'Machine Learning'],

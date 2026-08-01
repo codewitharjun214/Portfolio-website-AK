@@ -28,21 +28,6 @@ const BlogPlaceholder: React.FC = () => {
         viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-lightest-slate mb-4 flex items-center">
-              Insights & Technical Writing
-              <span className="flex-grow h-px bg-gray-300 dark:bg-lightest-navy ml-4"></span>
-            </h2>
-            <p className="text-gray-600 dark:text-slate max-w-xl text-lg">
-              Drafting research-driven insights covering machine learning, BI dashboard design, and backend efficiency.
-            </p>
-          </div>
-          <span className="inline-block px-4 py-1.5 bg-accent/10 text-accent font-mono text-xs font-bold rounded-full border border-accent/20 h-fit self-start md:self-end">
-            Articles Coming Soon
-          </span>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {POSTS.map((post, idx) => (
             <motion.article

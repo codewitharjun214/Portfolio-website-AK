@@ -39,17 +39,6 @@ const DashboardShowcase: React.FC = () => {
 
   return (
     <section id="showcase" className="py-24 relative bg-gray-50 dark:bg-navy/40 rounded-3xl p-8 sm:p-12 border border-gray-100 dark:border-lightest-navy my-12">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-lightest-slate mb-4 flex items-center justify-center gap-4">
-          <span className="h-px w-8 bg-accent"></span>
-          Analytics Dashboard Showcase
-          <span className="h-px w-8 bg-accent"></span>
-        </h2>
-        <p className="text-gray-600 dark:text-slate max-w-2xl mx-auto text-lg">
-          Explore interactive, production-ready enterprise Power BI dashboard mockups. Click on any thumbnail to inspect high-resolution reports, dynamic KPI calculations, and detailed analytics features.
-        </p>
-      </div>
-
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {DASHBOARDS.map((db, idx) => (
           <motion.div

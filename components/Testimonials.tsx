@@ -28,17 +28,6 @@ const Testimonials: React.FC = () => {
         viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.6 }}
       >
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-lightest-slate mb-4 flex items-center justify-center gap-4">
-            <span className="h-px w-8 bg-accent"></span>
-            Professional Commendations
-            <span className="h-px w-8 bg-accent"></span>
-          </h2>
-          <p className="text-gray-600 dark:text-slate max-w-2xl mx-auto text-lg">
-            Client feedback and manager reviews validating technical competence, problem-solving speed, and deliverable reliability.
-          </p>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {TESTIMONIALS.map((test, idx) => (
             <motion.div

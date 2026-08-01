@@ -6,12 +6,9 @@ import About from './components/About';
 import Services from './components/Services';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import DashboardShowcase from './components/DashboardShowcase';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import Certifications from './components/Certifications';
-import Testimonials from './components/Testimonials';
-import BlogPlaceholder from './components/BlogPlaceholder';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AdminPanel from './components/AdminPanel';
@@ -29,12 +26,9 @@ const MainContent: React.FC = () => (
       <Services />
       <Experience />
       <Projects />
-      <DashboardShowcase />
       <Skills />
       <Achievements />
       <Certifications />
-      <Testimonials />
-      <BlogPlaceholder />
       <Contact />
     </main>
     

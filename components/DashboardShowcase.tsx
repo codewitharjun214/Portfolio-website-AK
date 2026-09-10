@@ -22,7 +22,7 @@ const DASHBOARDS: ShowcaseItem[] = [
     title: 'HR Analytics & Employee Attrition Dashboard',
     category: 'People Analytics',
     description: 'An executive Power BI dashboard analyzing 1,470+ workforce records, mapping attrition rates (16.12%), active employees (1,233), overtime impact, and department/role turnover patterns.',
-    image: '/src/assets/images/hr_analytics_dashboard_1785179582392.jpg',
+    image: '/src/assets/images/hr.jpeg',
     kpis: ['Attrition Rate (16.12%)', '1.47K Employee Records', 'DAX & SQL Pipeline']
   },
   {

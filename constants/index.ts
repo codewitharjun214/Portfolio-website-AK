@@ -99,7 +99,7 @@ export const PROJECTS: Project[] = [
     githubLink: 'https://github.com/codewitharjun214/HR-Analytics-End-to-End-Project',
     liveLink: 'https://github.com/codewitharjun214/HR-Analytics-End-to-End-Project',
     caseStudyLink: '#hr-analytics-case-study',
-    image: '/src/assets/images/hr_analytics_dashboard_1785179582392.jpg',
+    image: '/src/assets/images/Dashboard.png',
     category: 'analytics',
     highlights: [
       'Cleaned, transformed, and queried 1,470+ workforce employee records using Python (Pandas) and SQL.',

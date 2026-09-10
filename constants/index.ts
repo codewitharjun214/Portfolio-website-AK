@@ -52,9 +52,9 @@ export const RESUME_LINK = 'https://drive.google.com/file/d/1OfUuEkRyI3zKkMKd58o
 export const EXPERIENCES: Experience[] = [
   {
     role: 'Data Science Intern',
-    company: 'Gremio Technologies Pvt. Ltd. / Remote',
+    company: 'Hisan Labs Pvt. Ltd. / Onsite',
     companyLink: '#',
-    date: 'July 2025 - June 2026 (1 Year)',
+    date: 'Jan 2026 - Aug 2026 (7 Months)',
     description: [
       'Cleaned, processed, and structured raw datasets containing over 100k+ records using Python, Pandas, and NumPy to ensure database integrity.',
       'Performed exploratory data analysis (EDA) to detect outliers, trends, and key business correlations, delivering insights to stakeholders.',
@@ -77,7 +77,7 @@ export const EXPERIENCES: Experience[] = [
     ]
   },
   {
-    role: 'Full Stack MERN Intern',
+    role: 'Full Stack Intern',
     company: 'Sanyu Infotech Pvt. Ltd.',
     companyLink: '#',
     date: 'May 2025 - July 2025',

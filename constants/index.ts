@@ -47,7 +47,7 @@ export interface SocialLinks {
   phone: string;
 }
 
-export const RESUME_LINK = 'https://drive.google.com/file/d/1J7qbJOcBuF_cPMv_8yaCs-ABQwq-dqQn/view?usp=drive_link';
+export const RESUME_LINK = 'https://drive.google.com/file/d/1OfUuEkRyI3zKkMKd58oxP2zwq-PiHHkX/view?usp=sharing';
 
 export const EXPERIENCES: Experience[] = [
   {
